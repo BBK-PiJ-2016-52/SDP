@@ -1,0 +1,68 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(I:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(I:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(I:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(I:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to I:\My Documents\SDP3\exercises\week03\src\test\scala\basics\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 61f426, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files (x86)\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_91\jre\classes;C:\Users\erodri07\.sbt\boot\scala-2.10.6\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	I:\My Documents\SDP3\exercises\week03\src\test\scala\basics\target\scala-2.10\classes[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:3: object ScalaBasics is not a member of package basics[0m
+[0m[[31merror[0m] [0mimport basics.ScalaBasics._[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:4: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.FunSuite[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:5: not found: object support[0m
+[0m[[31merror[0m] [0mimport support.TreeTraversals[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:7: not found: type FunSuite[0m
+[0m[[31merror[0m] [0mclass PublicScalaBasicsSuite extends FunSuite {[0m
+[0m[[31merror[0m] [0m                                     ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:9: not found: value test[0m
+[0m[[31merror[0m] [0m  test("[1] The add function should return the addition of a and b") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:18: not found: value test[0m
+[0m[[31merror[0m] [0m  test("[2] The inRange function should return an inclusive range") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:27: not found: value test[0m
+[0m[[31merror[0m] [0m  test("[4] The oddRange function should return a range of all odd integers from 1 to n") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:37: not found: value test[0m
+[0m[[31merror[0m] [0m  test("[5] The minWhile function should return the minimum integer in an array using a while loop") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:50: not found: value test[0m
+[0m[[31merror[0m] [0m  test("[5] The minFor function should return the minimum integer in an array using a for loop") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:63: not found: value test[0m
+[0m[[31merror[0m] [0m  test("[5] The minRecursive function should return the minimum integer in an array using recursion") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:78: not found: value test[0m
+[0m[[31merror[0m] [0m  test("[3] The base36 function should return the base 36 equivalent of the given BigInt") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:84: not found: value test[0m
+[0m[[31merror[0m] [0m  test("[5] The splitInHalf function should split a string in half") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mI:\My Documents\SDP3\exercises\week03\src\test\scala\basics\PublicScalaBasicsSuite.scala:94: not found: value test[0m
+[0m[[31merror[0m] [0m  test("[6] isPalindrome should return true if a string is a palindrome") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m13 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

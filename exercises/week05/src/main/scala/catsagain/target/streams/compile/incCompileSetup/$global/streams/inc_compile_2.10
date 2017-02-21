@@ -1,0 +1,206 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.6
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+19 items
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Cat$.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Cat.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Feline$class.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Feline.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Lion$.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Lion.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Panther$.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Panther.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Tiger$.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Tiger.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Antelope$.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Antelope.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Food.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Licorice$.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Licorice.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Mice$.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Mice.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\TigerFood$.class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\TigerFood.class
+binary dependencies:
+4 items
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> C:\Program Files (x86)\Java\jdk1.8.0_91\jre\lib\rt.jar
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> C:\Users\erodri07\.sbt\boot\scala-2.10.6\lib\scala-library.jar
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> C:\Program Files (x86)\Java\jdk1.8.0_91\jre\lib\rt.jar
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> C:\Users\erodri07\.sbt\boot\scala-2.10.6\lib\scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+1 items
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+19 items
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> catsagain.Cat
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> catsagain.Cat$
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> catsagain.Feline
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> catsagain.Feline$class
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> catsagain.Lion
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> catsagain.Lion$
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> catsagain.Panther
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> catsagain.Panther$
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> catsagain.Tiger
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> catsagain.Tiger$
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> catsagain.Antelope
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> catsagain.Antelope$
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> catsagain.Food
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> catsagain.Licorice
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> catsagain.Licorice$
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> catsagain.Mice
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> catsagain.Mice$
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> catsagain.TigerFood
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> catsagain.TigerFood$
+used names:
+68 items
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> <init>
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> ==
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> AbstractFunction0
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Antelope
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Any
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> AnyRef
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Boolean
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Cat
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Feline
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Food
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> IndexOutOfBoundsException
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Int
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Iterator
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Licorice
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Lion
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> MatchError
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Mice
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Nothing
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Object
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Panther
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Predef
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Product
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> ScalaRunTime
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Serializable
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> String
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> T
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> Tiger
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> TigerFood
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> _hashCode
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> _toString
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> catsagain
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> isInstanceOf
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> package
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> runtime
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> scala
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> toString
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> typedProductIterator
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> <init>
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> ==
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> AbstractFunction0
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Antelope
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Any
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> AnyRef
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Boolean
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Food
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> IndexOutOfBoundsException
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Int
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Iterator
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Licorice
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Mice
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Nothing
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Object
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Predef
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Product
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> ScalaRunTime
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> Serializable
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> String
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> T
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> TigerFood
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> _hashCode
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> _toString
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> catsagain
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> isInstanceOf
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> package
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> runtime
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> scala
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> toString
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> typedProductIterator
+product stamps:
+19 items
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Antelope$.class -> lastModified(1486479653458)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Antelope.class -> lastModified(1486479653409)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Cat$.class -> lastModified(1486479892059)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Cat.class -> lastModified(1486479892028)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Feline$class.class -> lastModified(1486479892123)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Feline.class -> lastModified(1486479892092)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Food.class -> lastModified(1486479653645)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Licorice$.class -> lastModified(1486479653709)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Licorice.class -> lastModified(1486479653677)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Lion$.class -> lastModified(1486479892154)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Lion.class -> lastModified(1486479892188)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Mice$.class -> lastModified(1486479653819)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Mice.class -> lastModified(1486479653851)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Panther$.class -> lastModified(1486479892251)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Panther.class -> lastModified(1486479892219)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Tiger$.class -> lastModified(1486479892282)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\Tiger.class -> lastModified(1486479892313)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\TigerFood$.class -> lastModified(1486479654086)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\target\scala-2.10\classes\catsagain\TigerFood.class -> lastModified(1486479654008)
+source stamps:
+2 items
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> hash(ed62133dbf5c821598b3b507e7832d6b2724eb08)
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> hash(7c986f2200640164721409d73fa4127bd57fd40d)
+binary stamps:
+2 items
+C:\Program Files (x86)\Java\jdk1.8.0_91\jre\lib\rt.jar -> lastModified(1466524317156)
+C:\Users\erodri07\.sbt\boot\scala-2.10.6\lib\scala-library.jar -> lastModified(1442568926000)
+class names:
+2 items
+C:\Program Files (x86)\Java\jdk1.8.0_91\jre\lib\rt.jar -> java.lang.Object
+C:\Users\erodri07\.sbt\boot\scala-2.10.6\lib\scala-library.jar -> scala.Product
+internal apis:
+2 items
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwUI6GMAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAhc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hww9M7lHQABm5vdGlmeXNxAH4ADBc6ISZ0AAR3YWl0c3EAfgAMrg0AQ3QADSRhc0luc3RhbmNlT2ZzcQB+AAwooNC5dAAMcHJvZHVjdEFyaXR5c3EAfgAMEX/PYXQABmVxdWFsc3NxAH4ADNICTu50AAxhc0luc3RhbmNlT2ZzcQB+AAzVHogidAAGRmVsaW5lc3EAfgAMLfS/0nQADHN5bmNocm9uaXplZHNxAH4ADFK7ZNd0AAVUaWdlcnNxAH4ADIE7FtB0AA0kaXNJbnN0YW5jZU9mc3EAfgAMpWi/EXQACGNhbkVxdWFsc3EAfgAMuqh5t3QADXByb2R1Y3RQcmVmaXhzcQB+AAzD345cdAAJbm90aWZ5QWxsc3EAfgAMberKh3QABExpb25zcQB+AAxYwzjUdAADQ2F0c3EAfgAM18+abnQADGlzSW5zdGFuY2VPZnNxAH4ADK3yFTZ0AAY8aW5pdD5zcQB+AAw0BF/4dAACPT1zcQB+AAwqlAr6dAAFY2xvbmVzcQB+AAzwhd46dAAGJGluaXQkc3EAfgAMrhXY5nQABGNvcHlzcQB+AAxHvQBSdAAIdG9TdHJpbmdzcQB+AAyepWv9dAACIT1zcQB+AAwAOpeOdAAIZ2V0Q2xhc3NzcQB+AAyAh2lUdAAHUGFudGhlcnNxAH4ADKl6x3N0AAJuZXNxAH4ADJGemIt0AAZkaW5uZXJzcQB+AAztpua+dAACZXFzcQB+AAzCkw2qdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAM7qDJDXQAAiMjc3EAfgAM1khkPnQACGZpbmFsaXplc3EAfgAMVryL33QADnByb2R1Y3RFbGVtZW50c3EAfgAMLVyGYnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AWXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwCXQAEGNhdHNhZ2Fpbi5GZWxpbmV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAVUcmFpdHVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBZTAAJaW5oZXJpdGVkcQB+AFlMAAdwYXJlbnRzcQB+AFl4cQB+AHZzcQB+AHF1cQB+AFQAAAAAc3EAfgBxdXEAfgBUAAAAAHNxAH4AcXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AdXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AdXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AjnQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Aj3NxAH4AgnQAA0FueXNxAH4AhnNxAH4AiXVxAH4AjAAAAAJzcQB+AI50AAVzY2FsYXEAfgCVc3EAfgBWcQB+AGN1cQB+AGQAAAAAc3EAfgBmBHQADmNhdHNhZ2Fpbi5MaW9udXEAfgBpAAAAAH5xAH4Aa3QACENsYXNzRGVmdXEAfgBvAAAAAHNxAH4AcXEAfgB3c3EAfgBxc3EAfgB5c3EAfgBxdXEAfgBUAAAAAHNxAH4AcXVxAH4AVAAAAABzcQB+AHF1cQB+AIAAAAAHc3EAfgCCdAAMU2VyaWFsaXphYmxlc3EAfgCGc3EAfgCJdXEAfgCMAAAAAnNxAH4AjnEAfgCccQB+AJVzcQB+AIJxAH4Ar3NxAH4AhnNxAH4AiXVxAH4AjAAAAANzcQB+AI5xAH4AkXNxAH4AjnQAAmlvcQB+AJVzcQB+AIJ0AAdQcm9kdWN0cQB+ALBzcQB+AIJ0AAZFcXVhbHNxAH4AsHNxAH4AgnQABkZlbGluZXNxAH4AhnNxAH4AiXVxAH4AjAAAAAJzcQB+AI50AAljYXRzYWdhaW5xAH4AlXNxAH4AgnEAfgCFc3EAfgCGc3EAfgCJdXEAfgCMAAAAA3NxAH4AjnEAfgCRc3EAfgCOcQB+AJNxAH4AlXNxAH4AgnEAfgCXcQB+ALBzcQB+AFZxAH4AY3VxAH4AZAAAAABzcQB+AGYEdAAPY2F0c2FnYWluLlRpZ2VydXEAfgBpAAAAAHEAfgCidXEAfgBvAAAAAHNxAH4AcXEAfgB3c3EAfgBxc3EAfgB5c3EAfgBxdXEAfgBUAAAAAHNxAH4AcXVxAH4AVAAAAABzcQB+AHF1cQB+AIAAAAAHc3EAfgCCcQB+AK9zcQB+AIZzcQB+AIl1cQB+AIwAAAACc3EAfgCOcQB+AJxxAH4AlXNxAH4AgnEAfgCvc3EAfgCGc3EAfgCJdXEAfgCMAAAAA3NxAH4AjnEAfgCRc3EAfgCOdAACaW9xAH4AlXNxAH4AgnEAfgC8cQB+AN1zcQB+AIJ0AAZFcXVhbHNxAH4A3XNxAH4AgnQABkZlbGluZXNxAH4AhnNxAH4AiXVxAH4AjAAAAAJzcQB+AI50AAljYXRzYWdhaW5xAH4AlXNxAH4AgnEAfgCFc3EAfgCGc3EAfgCJdXEAfgCMAAAAA3NxAH4AjnEAfgCRc3EAfgCOcQB+AJNxAH4AlXNxAH4AgnEAfgCXcQB+AN1zcQB+AFZxAH4AY3VxAH4AZAAAAABzcQB+AGYEdAARY2F0c2FnYWluLlBhbnRoZXJ1cQB+AGkAAAAAcQB+AKJ1cQB+AG8AAAAAc3EAfgBxcQB+AHdzcQB+AHFzcQB+AHlzcQB+AHF1cQB+AFQAAAAAc3EAfgBxdXEAfgBUAAAAAHNxAH4AcXVxAH4AgAAAAAdzcQB+AIJxAH4Ar3NxAH4AhnNxAH4AiXVxAH4AjAAAAAJzcQB+AI5xAH4AnHEAfgCVc3EAfgCCcQB+AK9zcQB+AIZzcQB+AIl1cQB+AIwAAAADc3EAfgCOcQB+AJFzcQB+AI50AAJpb3EAfgCVc3EAfgCCcQB+ALxxAH4BCXNxAH4AgnQABkVxdWFsc3EAfgEJc3EAfgCCdAAGRmVsaW5lc3EAfgCGc3EAfgCJdXEAfgCMAAAAAnNxAH4AjnQACWNhdHNhZ2FpbnEAfgCVc3EAfgCCcQB+AIVzcQB+AIZzcQB+AIl1cQB+AIwAAAADc3EAfgCOcQB+AJFzcQB+AI5xAH4Ak3EAfgCVc3EAfgCCcQB+AJdxAH4BCXNxAH4AVnEAfgBjdXEAfgBkAAAAAHNxAH4AZgR0AA1jYXRzYWdhaW4uQ2F0dXEAfgBpAAAAAHEAfgCidXEAfgBvAAAAAHNxAH4AcXEAfgB3c3EAfgBxc3EAfgB5c3EAfgBxdXEAfgBUAAAAAHNxAH4AcXVxAH4AVAAAAABzcQB+AHF1cQB+AIAAAAAHc3EAfgCCcQB+AK9zcQB+AIZzcQB+AIl1cQB+AIwAAAACc3EAfgCOcQB+AJxxAH4AlXNxAH4AgnEAfgCvc3EAfgCGc3EAfgCJdXEAfgCMAAAAA3NxAH4AjnEAfgCRc3EAfgCOdAACaW9xAH4AlXNxAH4AgnEAfgC8cQB+ATVzcQB+AIJ0AAZFcXVhbHNxAH4BNXNxAH4AgnQABkZlbGluZXNxAH4AhnNxAH4AiXVxAH4AjAAAAAJzcQB+AI50AAljYXRzYWdhaW5xAH4AlXNxAH4AgnEAfgCFc3EAfgCGc3EAfgCJdXEAfgCMAAAAA3NxAH4AjnEAfgCRc3EAfgCOcQB+AJNxAH4AlXNxAH4AgnEAfgCXcQB+ATV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAljYXRzYWdhaW5zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVoZGxh8dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAWEk6XE15IERvY3VtZW50c1xTRFAzXGV4ZXJjaXNlc1x3ZWVrMDVcc3JjXG1haW5cc2NhbGFcY2F0c2FnYWluXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTtYhM9v1yCFZiztQfngy1rJyTrCA==
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwqn6niQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAgc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw+JlG4XQABm5vdGlmeXNxAH4ADCYFT+90AAlUaWdlckZvb2RzcQB+AAyJnN+9dAAEd2FpdHNxAH4ADGz55qZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAM36QG23QADHByb2R1Y3RBcml0eXNxAH4ADDV2CQt0AAZlcXVhbHNzcQB+AAyEits2dAAETWljZXNxAH4ADN8HOR90AAxhc0luc3RhbmNlT2ZzcQB+AAxRMbJkdAAMc3luY2hyb25pemVkc3EAfgAMBos2MXQADSRpc0luc3RhbmNlT2ZzcQB+AAwmWcfgdAAIY2FuRXF1YWxzcQB+AAz3UD4ndAANcHJvZHVjdFByZWZpeHNxAH4ADGnOGcd0AAlub3RpZnlBbGxzcQB+AAyTWX44dAAERm9vZHNxAH4ADG9a+690AAxpc0luc3RhbmNlT2ZzcQB+AAxRRuZIdAAGPGluaXQ+c3EAfgAM2sz9CnQAAj09c3EAfgAMiHKZSnQACEFudGVsb3Blc3EAfgAMsMM59HQABWNsb25lc3EAfgAMDfBsjnQABiRpbml0JHNxAH4ADDwVBAV0AARjb3B5c3EAfgAMtaErfXQACExpY29yaWNlc3EAfgAMVfOOAnQACHRvU3RyaW5nc3EAfgAMEnwNtHQAAiE9c3EAfgAMIVnOdXQACGdldENsYXNzc3EAfgAMzdY2J3QAAm5lc3EAfgAMk8m4lHQAAmVxc3EAfgAMU9dKu3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADCTMSL10AAIjI3NxAH4ADBnPvA90AAhmaW5hbGl6ZXNxAH4ADNddwGZ0AA5wcm9kdWN0RWxlbWVudHNxAH4ADD6XJXJ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAVzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAl0AA5jYXRzYWdhaW4uRm9vZHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBvc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFdMAAlpbmhlcml0ZWRxAH4AV0wAB3BhcmVudHNxAH4AV3hxAH4AdHNxAH4Ab3VxAH4AUgAAAABzcQB+AG91cQB+AFIAAAAAc3EAfgBvdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBzdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBzc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCMdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCNc3EAfgCAdAADQW55c3EAfgCEc3EAfgCHdXEAfgCKAAAAAnNxAH4AjHQABXNjYWxhcQB+AJNzcQB+AFRxAH4AYXVxAH4AYgAAAABzcQB+AGQEdAASY2F0c2FnYWluLkFudGVsb3BldXEAfgBnAAAAAH5xAH4AaXQABk1vZHVsZXVxAH4AbQAAAABzcQB+AG9xAH4AdXNxAH4Ab3NxAH4Ad3NxAH4Ab3VxAH4AUgAAAABzcQB+AG91cQB+AFIAAAAAc3EAfgBvdXEAfgB+AAAAB3NxAH4AgHQADFNlcmlhbGl6YWJsZXNxAH4AhHNxAH4Ah3VxAH4AigAAAAJzcQB+AIxxAH4AmnEAfgCTc3EAfgCAcQB+AK1zcQB+AIRzcQB+AId1cQB+AIoAAAADc3EAfgCMcQB+AI9zcQB+AIx0AAJpb3EAfgCTc3EAfgCAdAAHUHJvZHVjdHEAfgCuc3EAfgCAdAAGRXF1YWxzcQB+AK5zcQB+AIB0AARGb29kc3EAfgCEc3EAfgCHdXEAfgCKAAAAAnNxAH4AjHQACWNhdHNhZ2FpbnEAfgCTc3EAfgCAcQB+AINzcQB+AIRzcQB+AId1cQB+AIoAAAADc3EAfgCMcQB+AI9zcQB+AIxxAH4AkXEAfgCTc3EAfgCAcQB+AJVxAH4ArnNxAH4AVHEAfgBhdXEAfgBiAAAAAHNxAH4AZAR0ABNjYXRzYWdhaW4uVGlnZXJGb29kdXEAfgBnAAAAAHEAfgCgdXEAfgBtAAAAAHNxAH4Ab3EAfgB1c3EAfgBvc3EAfgB3c3EAfgBvdXEAfgBSAAAAAHNxAH4Ab3VxAH4AUgAAAABzcQB+AG91cQB+AH4AAAAHc3EAfgCAcQB+AK1zcQB+AIRzcQB+AId1cQB+AIoAAAACc3EAfgCMcQB+AJpxAH4Ak3NxAH4AgHEAfgCtc3EAfgCEc3EAfgCHdXEAfgCKAAAAA3NxAH4AjHEAfgCPc3EAfgCMdAACaW9xAH4Ak3NxAH4AgHEAfgC6cQB+ANtzcQB+AIB0AAZFcXVhbHNxAH4A23NxAH4AgHQABEZvb2RzcQB+AIRzcQB+AId1cQB+AIoAAAACc3EAfgCMdAAJY2F0c2FnYWlucQB+AJNzcQB+AIBxAH4Ag3NxAH4AhHNxAH4Ah3VxAH4AigAAAANzcQB+AIxxAH4Aj3NxAH4AjHEAfgCRcQB+AJNzcQB+AIBxAH4AlXEAfgDbc3EAfgBUcQB+AGF1cQB+AGIAAAAAc3EAfgBkBHQAEmNhdHNhZ2Fpbi5MaWNvcmljZXVxAH4AZwAAAABxAH4AoHVxAH4AbQAAAABzcQB+AG9xAH4AdXNxAH4Ab3NxAH4Ad3NxAH4Ab3VxAH4AUgAAAABzcQB+AG91cQB+AFIAAAAAc3EAfgBvdXEAfgB+AAAAB3NxAH4AgHEAfgCtc3EAfgCEc3EAfgCHdXEAfgCKAAAAAnNxAH4AjHEAfgCacQB+AJNzcQB+AIBxAH4ArXNxAH4AhHNxAH4Ah3VxAH4AigAAAANzcQB+AIxxAH4Aj3NxAH4AjHQAAmlvcQB+AJNzcQB+AIBxAH4AunEAfgEHc3EAfgCAdAAGRXF1YWxzcQB+AQdzcQB+AIB0AARGb29kc3EAfgCEc3EAfgCHdXEAfgCKAAAAAnNxAH4AjHQACWNhdHNhZ2FpbnEAfgCTc3EAfgCAcQB+AINzcQB+AIRzcQB+AId1cQB+AIoAAAADc3EAfgCMcQB+AI9zcQB+AIxxAH4AkXEAfgCTc3EAfgCAcQB+AJVxAH4BB3NxAH4AVHEAfgBhdXEAfgBiAAAAAHNxAH4AZAR0AA5jYXRzYWdhaW4uTWljZXVxAH4AZwAAAAB+cQB+AGl0AAhDbGFzc0RlZnVxAH4AbQAAAABzcQB+AG9xAH4AdXNxAH4Ab3NxAH4Ad3NxAH4Ab3VxAH4AUgAAAABzcQB+AG91cQB+AFIAAAAAc3EAfgBvdXEAfgB+AAAAB3NxAH4AgHEAfgCtc3EAfgCEc3EAfgCHdXEAfgCKAAAAAnNxAH4AjHEAfgCacQB+AJNzcQB+AIBxAH4ArXNxAH4AhHNxAH4Ah3VxAH4AigAAAANzcQB+AIxxAH4Aj3NxAH4AjHQAAmlvcQB+AJNzcQB+AIBxAH4AunEAfgE1c3EAfgCAdAAGRXF1YWxzcQB+ATVzcQB+AIB0AARGb29kc3EAfgCEc3EAfgCHdXEAfgCKAAAAAnNxAH4AjHQACWNhdHNhZ2FpbnEAfgCTc3EAfgCAcQB+AINzcQB+AIRzcQB+AId1cQB+AIoAAAADc3EAfgCMcQB+AI9zcQB+AIxxAH4AkXEAfgCTc3EAfgCAcQB+AJVxAH4BNXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACWNhdHNhZ2FpbnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWhkXdBZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABYSTpcTXkgRG9jdW1lbnRzXFNEUDNcZXhlcmNpc2VzXHdlZWswNVxzcmNcbWFpblxzY2FsYVxjYXRzYWdhaW5cdGFyZ2V0XHNjYWxhLTIuMTBcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFHyYbyIAZAFkchQJ1z+kEnvVf9QN
+external apis:
+0 items
+source infos:
+2 items
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Cats.scala -> 
+AAAAAAAAAAA=
+I:\My Documents\SDP3\exercises\week05\src\main\scala\catsagain\Food.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWhkXdBZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWEk6XE15IERvY3VtZW50c1xTRFAzXGV4ZXJjaXNlc1x3ZWVrMDVcc3JjXG1haW5cc2NhbGFcY2F0c2FnYWluXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWhkbGHx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWEk6XE15IERvY3VtZW50c1xTRFAzXGV4ZXJjaXNlc1x3ZWVrMDVcc3JjXG1haW5cc2NhbGFcY2F0c2FnYWluXHRhcmdldFxzY2FsYS0yLjEwXGNsYXNzZXN0AAEv

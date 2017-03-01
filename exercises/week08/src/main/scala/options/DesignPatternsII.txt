@@ -1,0 +1,10 @@
+1. (a) Briefly describe the Strategy Design Pattern?
+	The intent of the Strategy is define a family of algorithms, encapsulate each one, and make them interchangeable. It lets the algorithm vary independently from the client that use it. Capture the abstraction in an interface, bury implementation details in derived classes.
+	Taken from https://sourcemaking.com/design_patterns/strategy
+
+	"Define a family of algorithms, encapsulate each one, and make them inter-
+	changeable. Strategy lets the algorithm vary independently from clients that
+	use it." -> Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. Design Patterns: Elements of Resusable Object-Oriented Software. Addison-Wesley Professional, 1995.
+
+   (b) When is it appropiate to use the Strategy Design Pattern?
+   	The Interface entity could represent either an abstract base class, or the method signature expectations by the client

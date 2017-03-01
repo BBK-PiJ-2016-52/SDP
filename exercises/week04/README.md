@@ -9,11 +9,19 @@
 * A class is a type
 * An object is a value
 
-Syntax for defining fields
+Syntax for defining *fields*
 Example:
 ```
 val name = expression
 val name: Type = expression
 val firstName = "Garfield"
 val secondName: String = "Cat"
+```
+
+Syntax for defining *methods*
+Example:
+```
+def name(arg1: Type, arg2: Type, ...): Type = {
+// body goes here
+}
 ```

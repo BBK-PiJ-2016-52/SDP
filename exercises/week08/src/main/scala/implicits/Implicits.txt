@@ -1,0 +1,27 @@
+scala> import scala.math.Ordering
+import scala.math.Ordering
+
+scala> List(1,5,2,7,2,5).sorted(minOrdering)
+res1: List[Int] = List(1, 2, 2, 5, 5, 7)
+
+scala> val maxOrdering = Ordering.fromLessThan[Int](_ > _)
+maxOrdering: scala.math.Ordering[Int] = scala.math.Ordering$$anon$9@846330
+
+scala> List(1,5,2,7,2,5).sorted(maxOrdering)
+res4: List[Int] = List(7, 5, 5, 2, 2, 1)
+
+scala> List(1,5,2,7,2,5).sorted
+res3: List[Int] = List(1, 2, 2, 5, 5, 7)
+
+
+implicit val, implicit object and implicit method
+
+scala> final case class Rational(numerator: Int, denominator: Int)
+defined class Rational
+
+scala>implicit val ratordering = Ordering.fromLessThan[Rational]{(x,y) =>
+(x.numerator.toDouble / x.denominator.toDouble) <
+(y.numerator.toDouble / x.denominator.toDouble)
+}
+
+ratordering: scala.math.Ordering[Rational] = scala.math.Ordering$$anon$9@1c8d8e7

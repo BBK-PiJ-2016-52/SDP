@@ -14,6 +14,7 @@ Example:
 ```
 val name = expression
 val name: Type = expression
+
 val firstName = "Garfield"
 val secondName: String = "Cat"
 ```
@@ -23,5 +24,9 @@ Example:
 ```
 def name(arg1: Type, arg2: Type, ...): Type = {
 // body goes here
+}
+
+def sayHello(other: Type): String = {
+firstName + " says hello to " + other
 }
 ```

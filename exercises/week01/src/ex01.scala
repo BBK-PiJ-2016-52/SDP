@@ -1,3 +1,4 @@
+import scala.io.StdIn.{readLine}
 /**
   * Created by Eric on 31/01/2017.
   */

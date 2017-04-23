@@ -42,7 +42,7 @@ def printIntroductoryMessage(): Unit ={
         "You are in year "+ i + " of your ten year rule.\n" +
         "In the previous year " + starved + " people starved to death.\n" +
         "In the previous year " + immigrants + " people entered the kingdom.\n" +
-        "The population is now " + population + ". We harvested 3000 bushels at 3 bushels per acre.\n" +
+        "The population is now " + population + ". We harvested " + harvest + " bushels at 3 bushels per acre.\n" +
         "Rats destroyed " + rats_ate + " bushels, leaving " + bushelsInStorage + " bushels in storage.\n" +
         "The city owns " + acresOwned + " acres of land.\n" +
         "Land is currently worth " + pricePerAcre + " bushels per acre.\n" +
@@ -81,7 +81,7 @@ def printIntroductoryMessage(): Unit ={
 
   def askHowMuchLandToSell(bushels: Int, price: Int): Int = {
     var acresToSell = readInt("How many acres will you sell? \n")
-    while (acresToSell < acresOwned || acresToSell < 0){
+    while (acresToSell > bushels || acresToSell < 0){
       println("O Great Hammurabi, we have but " + bushels + " bushels of grain! \n")
       acresToSell = readInt("How many acres will you sell? \n")
     }
@@ -90,7 +90,7 @@ def printIntroductoryMessage(): Unit ={
 
   def askHowMuchGrainToFeedToThePeople(bushels: Int): Int ={
     var GrainToFeed = readInt("How many bushels of grain to feed the people? \n")
-    while (GrainToFeed < bushels) {
+    while (GrainToFeed > bushels || GrainToFeed < 0) {
       println("O Great Hammurabi, we have " + bushels + " bushels of grain! \n")
       GrainToFeed = readInt("How many bushels of grain to feed the people? \n")
     }

@@ -47,6 +47,7 @@ def printIntroductoryMessage(): Unit ={
         "The city owns " + acresOwned + " acres of land.\n" +
         "Land is currently worth " + pricePerAcre + " bushels per acre.\n" +
         "There were " + plagueDeaths + " deaths from the plague.\n")
+      consequences(plagueDeaths)
     }
   }
 
@@ -59,6 +60,10 @@ def printIntroductoryMessage(): Unit ={
     bushelsInStorage = bushelsInStorage - GrainToFeed
     val acresToPlantWithSeed = askHowManyAcresToPlantWithSeed(harvest,bushelsPerAcre)
     harvest = acresToPlantWithSeed * bushelsPerAcre
+  }
+
+  def consequences(plague: Int): Unit = {
+    plagueDeaths = Random.nextInt(15)+1
   }
 
   /**

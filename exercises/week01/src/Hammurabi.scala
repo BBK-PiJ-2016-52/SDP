@@ -7,18 +7,6 @@ import scala.util.Random
 
 object Hammurabi {
 
-  for(i <- 1 to 10){
-    println("O great Hammurabi!\n" +
-      "You are in year "+ i + " of your ten year rule.\n" +
-      "In the previous year 0 people starved to death.\n" +
-      "In the previous year 5 people entered the kingdom.\n" +
-      "The population is now 100.\nWe harvested 3000 bushels at 3 bushels per acre.\n" +
-      "Rats destroyed 200 bushels, leaving 2800 bushels in storage.\n" +
-      "The city owns 1000 acres of land.\n" +
-      "Land is currently worth 19 bushels per acre.\n" +
-      "There were 0 deaths from the plague.")
-  }
-
 def printIntroductoryMessage(): Unit ={
   println("Congratulations, you are the newest ruler of ancient Samaria, elected\n" +
     "for a ten year term of office. Your duties are to dispense food, direct\n" +
@@ -30,7 +18,7 @@ def printIntroductoryMessage(): Unit ={
     "* It takes 2 bushels of grain to farm an acre of land.\n" +
     "* The market price for land fluctuates yearly.\n" +
     "Rule wisely and you will be showered with appreciation at the end of\n" +
-    "your term. Rule poorly and you will be kicked out of office!")
+    "your term. Rule poorly and you will be kicked out of office!\n")
 }
   var starved = 0 // how many people starved
   var immigrants = 5 // how many people came to the city
@@ -45,47 +33,85 @@ def printIntroductoryMessage(): Unit ={
 
 
   def hammurabi(): Unit = {
-    /*var acresToBuy = askHowMuchLandToBuy(bushelsInStorage, pricePerAcre)
-    acresOwned = acresOwned + acresToBuy*/
 
-    var acresToSell = askHowMuchLandToSell(acresOwned,pricePerAcre)
-    acresOwned = acresOwned - acresToSell
+    printIntroductoryMessage()
+
+    for(i <- 1 to 10){
+      optionToSelect("")
+      println("O great Hammurabi!\n" +
+        "You are in year "+ i + " of your ten year rule.\n" +
+        "In the previous year " + starved + " people starved to death.\n" +
+        "In the previous year " + immigrants + " people entered the kingdom.\n" +
+        "The population is now " + population + ". We harvested 3000 bushels at 3 bushels per acre.\n" +
+        "Rats destroyed " + rats_ate + " bushels, leaving " + bushelsInStorage + " bushels in storage.\n" +
+        "The city owns " + acresOwned + " acres of land.\n" +
+        "Land is currently worth " + pricePerAcre + " bushels per acre.\n" +
+        "There were " + plagueDeaths + " deaths from the plague.\n")
+    }
   }
+
+  def optionToSelect(message: String): Unit = {
+    val optionSelected = readInt("O Great Hammurabi, Please select an option you would like too.. Type: \n" +
+      "1 To Buy Land\n" +
+      "0 To Sell Land\n")
+    if (optionSelected == 1){
+      val acresToBuy = askHowMuchLandToBuy(acresOwned, pricePerAcre)
+      acresOwned = acresOwned - acresToBuy
+      val GrainToFeed = askHowMuchGrainToFeedToThePeople(bushelsInStorage)
+      bushelsInStorage = bushelsInStorage - GrainToFeed
+    }
+    if (optionSelected == 0){
+      val acresToSell = askHowMuchLandToSell(acresOwned,pricePerAcre)
+      acresOwned = acresOwned + acresToSell
+      askHowMuchGrainToFeedToThePeople(bushelsInStorage)
+    }
+    if (optionSelected != 1 || optionSelected != 0){
+      println("O Great Hammurabi, please select a valid option between Buy or Sell.")
+    }
+  }
+
   def askHowMuchLandToBuy(bushels: Int, price: Int): Int = {
-    var acresToBuy = readInt("How many acres will you buy? ")
+    var acresToBuy = readInt("How many acres will you buy? \n")
     while (acresToBuy < 0 || acresToBuy * price > bushels) {
-      println("O Great Hammurabi, we have but " + bushels + " bushels of grain!")
-      acresToBuy = readInt("How many acres will you buy? ")
+      println("O Great Hammurabi, we have but " + bushels + " bushels of grain! \n")
+      acresToBuy = readInt("How many acres will you buy? \n")
     }
     acresToBuy
   }
 
   def askHowMuchLandToSell(bushels: Int, price: Int): Int = {
-    var acresToSell = readInt("How many acress will you sell? ")
-    while (acresToSell > acresOwned){
-      println("O Great Hammurabi, we have but " + bushels + " bushels of grain!")
-      acresToSell = readInt("How many acress will you sell? ")
+    var acresToSell = readInt("How many acres will you sell? \n")
+    while (acresToSell < acresOwned || acresToSell < 0){
+      println("O Great Hammurabi, we have but " + bushels + " bushels of grain! \n")
+      acresToSell = readInt("How many acres will you sell? \n")
     }
     acresToSell
   }
 
-  def askHowMuchGrainToFeedToThePeople(): Unit ={
-
+  def askHowMuchGrainToFeedToThePeople(bushels: Int): Int ={
+    var GrainToFeed = readInt("How many bushels of grain to feed the people? \n")
+    while (GrainToFeed < bushels) {
+      println("O Great Hammurabi, we have " + bushels + " bushels of grain! \n")
+      GrainToFeed = readInt("How many bushels of grain to feed the people? \n")
+    }
+    GrainToFeed
   }
 
-  def askHowManyAcresToPlantWithSeed(): Unit = {
-
+  def askHowManyAcresToPlantWithSeed(bushels: Int): Unit = {
+    val acresToPlantWithSeed = readInt("How many acres to plant with seed? \n")
+    while (acresToPlantWithSeed > bushelsInStorage) {
+      println("O Great Hammurabi, we have " + bushels + " \n")
+    }
   }
-
 
   def readInt(message: String): Int = {
     try {
       readLine(message).toInt
     } catch {
       case _: Throwable =>
-        println("That is not an integer. Please enter an integer.")
+        println("That is not an integer. Please enter an integer. \n")
         readInt(message)
     }
   }
-
 }
+Hammurabi.hammurabi

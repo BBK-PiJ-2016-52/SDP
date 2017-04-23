@@ -42,7 +42,7 @@ def printIntroductoryMessage(): Unit ={
         "You are in year "+ i + " of your ten year rule.\n" +
         "In the previous year " + starved + " people starved to death.\n" +
         "In the previous year " + immigrants + " people entered the kingdom.\n" +
-        "The population is now " + population + ". We harvested " + harvest + " bushels at 3 bushels per acre.\n" +
+        "The population is now " + population + ". We harvested " + harvest + " bushels at " + bushelsPerAcre + " bushels per acre.\n" +
         "Rats destroyed " + rats_ate + " bushels, leaving " + bushelsInStorage + " bushels in storage.\n" +
         "The city owns " + acresOwned + " acres of land.\n" +
         "Land is currently worth " + pricePerAcre + " bushels per acre.\n" +
@@ -50,6 +50,21 @@ def printIntroductoryMessage(): Unit ={
     }
   }
 
+  /**
+    * This function ask the Great Hammurabi to make some decisions.
+    * Questions are asked in a specific order and cannot return to a previous question
+    */
+  def decisions(): Unit = {
+    val GrainToFeed = askHowMuchGrainToFeedToThePeople(bushelsInStorage)
+    bushelsInStorage = bushelsInStorage - GrainToFeed
+    val acresToPlantWithSeed = askHowManyAcresToPlantWithSeed(harvest,bushelsPerAcre)
+    harvest = acresToPlantWithSeed * bushelsPerAcre
+  }
+
+  /**
+    * This methods select between Buy or Sell.
+    * @param message read the input from the Great Hammurabi.
+    */
   def optionToSelect(message: String): Unit = {
     val optionSelected = readInt("O Great Hammurabi, Please select an option you would like too.. Type: \n" +
       "1 To Buy Land\n" +
@@ -57,13 +72,12 @@ def printIntroductoryMessage(): Unit ={
     if (optionSelected == 1){
       val acresToBuy = askHowMuchLandToBuy(acresOwned, pricePerAcre)
       acresOwned = acresOwned - acresToBuy
-      val GrainToFeed = askHowMuchGrainToFeedToThePeople(bushelsInStorage)
-      bushelsInStorage = bushelsInStorage - GrainToFeed
+      decisions()
     }
     if (optionSelected == 0){
       val acresToSell = askHowMuchLandToSell(acresOwned,pricePerAcre)
       acresOwned = acresOwned + acresToSell
-      askHowMuchGrainToFeedToThePeople(bushelsInStorage)
+      decisions()
     }
     if (optionSelected != 1 || optionSelected != 0){
       println("O Great Hammurabi, please select a valid option between Buy or Sell.")
@@ -97,11 +111,12 @@ def printIntroductoryMessage(): Unit ={
     GrainToFeed
   }
 
-  def askHowManyAcresToPlantWithSeed(bushels: Int): Unit = {
+  def askHowManyAcresToPlantWithSeed(seeds: Int, price: Int): Int = {
     val acresToPlantWithSeed = readInt("How many acres to plant with seed? \n")
-    while (acresToPlantWithSeed > bushelsInStorage) {
-      println("O Great Hammurabi, we have " + bushels + " \n")
+    while (acresToPlantWithSeed > seeds || acresToPlantWithSeed * price > seeds) {
+      println("O Great Hammurabi, we have " + seeds + " \n")
     }
+    acresToPlantWithSeed
   }
 
   def readInt(message: String): Int = {
@@ -114,4 +129,4 @@ def printIntroductoryMessage(): Unit ={
     }
   }
 }
-Hammurabi.hammurabi
+Hammurabi.hammurabi()

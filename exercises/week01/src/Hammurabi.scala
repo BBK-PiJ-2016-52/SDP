@@ -47,7 +47,8 @@ def printIntroductoryMessage(): Unit ={
         "The city owns " + acresOwned + " acres of land.\n" +
         "Land is currently worth " + pricePerAcre + " bushels per acre.\n" +
         "There were " + plagueDeaths + " deaths from the plague.\n")
-      consequences(plagueDeaths)
+      consequences()
+      starvation(starved,population)
     }
   }
 
@@ -62,8 +63,16 @@ def printIntroductoryMessage(): Unit ={
     harvest = acresToPlantWithSeed * bushelsPerAcre
   }
 
-  def consequences(plague: Int): Unit = {
-    plagueDeaths = Random.nextInt(15)+1
+  def consequences(): Unit = {
+    plagueDeaths = population -( population - Random.nextInt(15)+1)
+
+  }
+
+  def starvation(starved: Int, totalPopulation: Int): Unit = {
+    if (totalPopulation * 20 > bushelsInStorage || (starved*100) / totalPopulation >= 45) {
+    println("Fancy Message")
+      return
+    }
   }
 
   /**
@@ -118,7 +127,7 @@ def printIntroductoryMessage(): Unit ={
 
   def askHowManyAcresToPlantWithSeed(seeds: Int, price: Int): Int = {
     val acresToPlantWithSeed = readInt("How many acres to plant with seed? \n")
-    while (acresToPlantWithSeed > seeds || acresToPlantWithSeed * price > seeds) {
+    while (acresToPlantWithSeed > seeds ) {
       println("O Great Hammurabi, we have " + seeds + " \n")
     }
     acresToPlantWithSeed

@@ -38,6 +38,8 @@ def printIntroductoryMessage(): Unit ={
 
     for(i <- 1 to 10){
       optionToSelect("")
+      consequences()
+      starvation(starved,population)
       println("O great Hammurabi!\n" +
         "You are in year "+ i + " of your ten year rule.\n" +
         "In the previous year " + starved + " people starved to death.\n" +
@@ -47,8 +49,7 @@ def printIntroductoryMessage(): Unit ={
         "The city owns " + acresOwned + " acres of land.\n" +
         "Land is currently worth " + pricePerAcre + " bushels per acre.\n" +
         "There were " + plagueDeaths + " deaths from the plague.\n")
-      consequences()
-      starvation(starved,population)
+
     }
   }
 
@@ -63,14 +64,29 @@ def printIntroductoryMessage(): Unit ={
     harvest = acresToPlantWithSeed * bushelsPerAcre
   }
 
+  /**
+    * Consequences generated using Random numbers to modify the principal variables of the program.
+    */
   def consequences(): Unit = {
     plagueDeaths = population -( population - Random.nextInt(15)+1)
+    immigrants = (20 * bushelsPerAcre + bushelsInStorage) / (100 * population) + 1
+    bushelsPerAcre = Random.nextInt(8)+1
 
+    val ratsHigh = 30
+    val ratsLow = 10
+    val rats = Random.nextInt(ratsHigh - ratsLow) + ratsLow
+    rats_ate = (40/100) * rats
+
+    val acreHigh = 23
+    val acreLow = 17
+    val acre = Random.nextInt(acreHigh - acreLow) + acreLow
+    println("Each acre cost this " + acre + " this year. \n")
+    pricePerAcre = acre
   }
 
   def starvation(starved: Int, totalPopulation: Int): Unit = {
-    if (totalPopulation * 20 > bushelsInStorage || (starved*100) / totalPopulation >= 45) {
-    println("Fancy Message")
+    if (totalPopulation * 20 > bushelsInStorage || ((starved*100) / totalPopulation) >= 45) {
+    println("Dear Hammurabi you have killed so many and you cannot lead the Kingdom anymore. \n")
       return
     }
   }

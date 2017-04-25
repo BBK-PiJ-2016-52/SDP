@@ -1,4 +1,4 @@
-package Worksheet02
+package WorkSheetScalaII
 
 import scala.io.StdIn.readLine
 import scala.util.Random

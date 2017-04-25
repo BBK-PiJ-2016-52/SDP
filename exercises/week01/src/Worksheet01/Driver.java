@@ -27,7 +27,8 @@ public class Driver {
         }
         System.out.println( aStorage.getValue().showBalance() );
         if( aStorage.getClass() == sStorage.getClass() ) {
-            System.out.println( "EQUAL" + "We obtain the number 115 because this is now the new balance on the account." +
+            System.out.println( "EQUAL \n" +
+                    " We obtain the number 115 because this is now the new balance on the account." +
                     " The initial balance was 100 held by the BankAccount object. When this object is called by\n" +
                     "the main method of the Driver class we then added 15 to the current balance.\n" +
                     "That is the mechanics of the code — generics enables addition compile time constraints\n" +

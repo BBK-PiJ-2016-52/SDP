@@ -1,6 +1,6 @@
 package AlarmSystem;
 
-public class SmokeSensor implements Sensor {
+public class SmokeSensor implements SecuritySensor {
 
   private boolean triggered;
   private String location;

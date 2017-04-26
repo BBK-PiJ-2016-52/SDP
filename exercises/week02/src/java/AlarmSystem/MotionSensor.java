@@ -1,6 +1,6 @@
 package AlarmSystem;
 
-public class MotionSensor implements Sensor {
+public class MotionSensor implements SecuritySensor {
     @Override
     public boolean isTriggered() {
         return false;

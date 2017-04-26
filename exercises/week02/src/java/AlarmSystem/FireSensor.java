@@ -1,4 +1,4 @@
-package AlarmSystemJAVA;
+package AlarmSystem;
 
 public class FireSensor implements Sensor {
   @Override

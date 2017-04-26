@@ -1,4 +1,4 @@
-package AlarmSystemJAVA;
+package AlarmSystem;
 
 import java.io.IOException;
 import java.util.Scanner;

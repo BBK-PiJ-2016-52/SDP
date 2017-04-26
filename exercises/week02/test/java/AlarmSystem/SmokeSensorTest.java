@@ -1,5 +1,7 @@
-package AlarmSystemJAVA;
+package AlarmSystem;
 import org.junit.Test;
+
+import AlarmSystem.SmokeSensor;
 
 import static org.junit.Assert.assertEquals;
 

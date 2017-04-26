@@ -1,4 +1,4 @@
-package AlarmSystemJAVA;
+package AlarmSystem;
 
 import org.junit.Test;
 

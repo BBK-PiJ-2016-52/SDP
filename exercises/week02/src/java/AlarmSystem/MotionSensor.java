@@ -1,23 +1,24 @@
 package AlarmSystem;
 
-public class MotionSensor implements SecuritySensor {
+public class MotionSensor implements Sensor {
+
+    private boolean triggered;
+    private String location;
+    private String sensorType;
+
     @Override
     public boolean isTriggered() {
-        return false;
+        return triggered;
     }
 
     @Override
     public String getLocation() {
-        return null;
+        return location;
     }
 
     @Override
     public String getSensorType() {
-        return null;
+        return sensorType;
     }
 
-    @Override
-    public double getBatteryPercentage() {
-        return 0;
-    }
 }

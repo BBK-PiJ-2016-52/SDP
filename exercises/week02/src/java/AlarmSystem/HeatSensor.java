@@ -1,19 +1,24 @@
 package AlarmSystem;
 
 public class HeatSensor implements SecuritySensor{
+
+    private boolean triggered;
+    private String location;
+    private String sensorType;
+
     @Override
     public boolean isTriggered() {
-        return false;
+        return triggered;
     }
 
     @Override
     public String getLocation() {
-        return null;
+        return location;
     }
 
     @Override
     public String getSensorType() {
-        return null;
+        return sensorType;
     }
 
     @Override

@@ -7,8 +7,9 @@ public class ControlUnit {
 
   public void pollSensors() {
     List<Sensor> sensors = new ArrayList<>();
-    sensors.add(new FireSensor());
+    sensors.add(new FireSensor(true, "Ground Floor"));
     sensors.add(new SmokeSensor());
+    sensors.add(new HeatSensor());
 
     for (Sensor sensor : sensors) {
       if (sensor.isTriggered()) {

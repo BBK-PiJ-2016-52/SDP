@@ -161,4 +161,4 @@ def printIntroductoryMessage(): Unit ={
     }
   }
 }
-Hammurabi.hammurabi()
+//Hammurabi.hammurabi()

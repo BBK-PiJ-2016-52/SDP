@@ -1,5 +1,8 @@
 package WorkSheetScalaReflection;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
 /**
  * Created by Eric on 15/04/2017.
  */
@@ -13,11 +16,17 @@ public class ObjectConstructorCreator {
     private void launch () throws ClassNotFoundException {
         try {
             Class cls = Class.forName("java.lang.String");
-            //java.lang.reflect.Constructor.newInstance().
             System.out.println("Class found = " + cls.getName());
             System.out.println("Package = " + cls.getPackage());
-        } catch(ClassNotFoundException ex) {
-            System.out.println(ex.toString());
+            System.out.println("Constructors = " + cls.getConstructors());
+            Constructor[] constructors = cls.getConstructors();
+            cls.getConstructor(String.class);
+            Constructor<Object> constructor = null;
+            Class[] parameterTypes = constructor.getParameterTypes();
+            constructor.newInstance("String");
+
+        } catch(ClassNotFoundException | NoSuchMethodException | IllegalAccessException | InvocationTargetException | InstantiationException ex) {
+            ex.printStackTrace();
         }
     }
 }

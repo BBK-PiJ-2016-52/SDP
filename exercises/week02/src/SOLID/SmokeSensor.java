@@ -1,9 +1,9 @@
-package S.O.L.I.D;
+package SOLID;
 
 /**
  * Created by Eric on 24/01/2017.
  */
-public class FireSensor implements Sensor{
+public class SmokeSensor implements Sensor{
 
     @Override
     public boolean isTriggered() {

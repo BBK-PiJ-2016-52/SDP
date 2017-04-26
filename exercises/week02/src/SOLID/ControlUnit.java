@@ -1,4 +1,4 @@
-package S.O.L.I.D;
+package SOLID;
 
 /**
  * Created by Eric on 24/01/2017.

@@ -1,4 +1,4 @@
-package WorksheetScalaI
+package WorkSheetScalaI
 
 import scala.io.StdIn.readLine
 /**

@@ -20,10 +20,10 @@ public class ObjectConstructorCreator {
             System.out.println("Package = " + cls.getPackage());
             System.out.println("Constructors = " + cls.getConstructors());
             Constructor[] constructors = cls.getConstructors();
-            cls.getConstructor(String.class);
+            cls.getConstructor(String.class,int.class);
             Constructor<Object> constructor = null;
             Class[] parameterTypes = constructor.getParameterTypes();
-            constructor.newInstance("String");
+            constructor.newInstance("String",1);
 
         } catch(ClassNotFoundException | NoSuchMethodException | IllegalAccessException | InvocationTargetException | InstantiationException ex) {
             ex.printStackTrace();

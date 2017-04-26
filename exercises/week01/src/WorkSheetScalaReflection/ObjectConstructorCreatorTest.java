@@ -1,5 +1,7 @@
 package WorkSheetScalaReflection;
 
+import org.junit.Test;
+
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
@@ -23,4 +25,5 @@ public class ObjectConstructorCreatorTest extends ObjectConstructorCreator {
         Class[] parameterTypes = constructor.getParameterTypes();
         constructor.newInstance("String");
     }
+
 }

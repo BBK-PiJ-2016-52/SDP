@@ -8,12 +8,12 @@ import java.lang.reflect.InvocationTargetException;
  */
 public class ObjectConstructorCreator {
 
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         ObjectConstructorCreator launcher = new ObjectConstructorCreator();
         launcher.launch();
     }
 
-    private void launch () throws ClassNotFoundException {
+    void launch() throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException {
         try {
             Class cls = Class.forName("java.lang.String");
             System.out.println("Class found = " + cls.getName());

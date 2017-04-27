@@ -64,7 +64,13 @@ object ScalaBasics {
    * @param r the array of integers
    * @return the minimum integer in the array
    */
-  def minFor(r: Array[Int]): Int = ???
+  def minFor(r: Array[Int]): Int = {
+    var min = r(0)
+    for ( i <- 1 to (r.length - 1) ) {
+      if (r(i) > min) min = r(i)
+      }
+    min
+  }
 
   /**
    * Write a function called minRecursive that returns the minimum integer in the Array r.
@@ -90,7 +96,7 @@ object ScalaBasics {
    * @param b a big integer
    * @return the base 36 equivalent
    */
-  def base36(b: BigInt): String = ???
+  def base36(b: BigInt): String = b.toString(36)
 
   /**
    * Splits the String s in half.
@@ -138,6 +144,7 @@ object ScalaBasics {
    */
   def isPalindrome(s: String): Boolean = ???
 
+/*
   /**
    * You don't have to complete this one as we've removed it from the list
    * of required functions.
@@ -153,6 +160,7 @@ object ScalaBasics {
    * @return the sum of the ASCII integers corresponding with the character.
    */
   def sumChars(cc: Char*): Int = ???
+*/
 
   /**
    * Counts the number of space delimited words in the provided array of strings.

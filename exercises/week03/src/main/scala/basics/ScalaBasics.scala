@@ -15,7 +15,7 @@ object ScalaBasics {
    * @param b operand b
    * @return the sum
    */
-  def add(a: Int, b: Int): Int = ???
+  def add(a: Int, b: Int): Int = a + b
 
   /**
    * Write a function that returns the inclusive Range from start to end.
@@ -26,8 +26,8 @@ object ScalaBasics {
    * @param end the end of the range
    * @return the inclusive Range from start to end
    */
-  def inRange(start: Int, end: Int): Range = ???
-
+  def inRange(start: Int, end: Int): Range = start to end
+  
   /**
    * Write a function that returns a Range of odd n odd integers starting at 1.
    *
@@ -36,7 +36,7 @@ object ScalaBasics {
    * @param n the number of odd integers in the range
    * @return a Range of odd integers, excluding the last add integer
    */
-  def oddRange(n: Int): Range = ???
+  def oddRange(n: Int): Range = 1 to n by 2
 
   /**
    * Write a function that returns the minimum integer in the Array r.
@@ -113,7 +113,7 @@ object ScalaBasics {
    * @param s the string to split
    * @return the split string as a tuple
    */
-  def splitInHalf(s: String): (String, String) = ???
+  def splitInHalf(s: String): (String, String) = s.splitAt(s.length/2)
 
   /**
    * Determines if the given string s is a palindrome.
@@ -139,7 +139,7 @@ object ScalaBasics {
   def isPalindrome(s: String): Boolean = ???
 
   /**
-   * You don't have to complete this one as we've removed it from the list 
+   * You don't have to complete this one as we've removed it from the list
    * of required functions.
    *
    * Sum the characters (as integers) provided as arguments to this method.
@@ -152,7 +152,7 @@ object ScalaBasics {
    * @param cc 0 or more characters
    * @return the sum of the ASCII integers corresponding with the character.
    */
-  //def sumChars(cc: Char*): Int = ???
+  def sumChars(cc: Char*): Int = ???
 
   /**
    * Counts the number of space delimited words in the provided array of strings.

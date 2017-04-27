@@ -1,7 +1,7 @@
 package basics
 
 import basics.ScalaBasics._
-import org.scalatest._
+import org.scalatest.FunSuite
 import support.TreeTraversals
 
 class PublicScalaBasicsSuite extends FunSuite {

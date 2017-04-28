@@ -1,4 +1,4 @@
-package practiceWithClasses
+package Question1
 
 case class Counter (input: Int){
   def inc(): Int = input + 1

@@ -86,23 +86,15 @@ object Funcs {
     * the first list in reverse order. That is, reverse(List(1,2,3)) =
     * List(3,2,1).
     * - flatten: Takes a List[List[A]] and produces a List[A] by joining all
-    * the sublists into one long list. For example, flatten(List(List(1,2,3),
+    * the sub lists into one long list. For example, flatten(List(List(1,2,3),
     * List(4,5,6))) produces List(1,2,3,4,5,6).
     */
-  def sum(ls: List[Double]): Double = ls match {
-    case Nil => 0
-    case hd :: tl => hd + sum(tl)
-  }
+  def sum(ls: List[Double]) :Double = foldLeft(ls,0.0)(_ + _)
 
-  def product(ls: List[Double]): Double = ls match {
-    case Nil => 1
-    case hd :: tl => hd * product(tl)
-  }
 
-  def length[A](ls: List[A]): Int = ls match {
-    case Nil => 0
-    case hd :: tl => 1 + length(tl)
-  }
+  def product(ls: List[Double]): Double = foldLeft(ls,1.0)(_ * _)
+
+  def length[A](ls: List[A]): Int = foldLeft(ls, 0)( (z , _) => z + 1 )
 
   def reverse[A](ls: List[A]): List[A] = ls match {
     case Nil => Nil

@@ -1,4 +1,4 @@
-name := """examples week08 - design patterns"""
+name := """week08"""
 
 version := "1.0"
 

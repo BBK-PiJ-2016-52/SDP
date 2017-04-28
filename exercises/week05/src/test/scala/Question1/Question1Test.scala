@@ -1,4 +1,4 @@
-package practiceWithClasses
+package Question1
 
 import org.scalatest.FunSuite
 

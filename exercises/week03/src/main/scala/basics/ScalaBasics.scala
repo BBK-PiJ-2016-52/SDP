@@ -66,9 +66,9 @@ object ScalaBasics {
    */
   def minFor(r: Array[Int]): Int = {
     var min = r(0)
-    for ( i <- 1 to (r.length - 1) ) {
-      if (r(i) > min) min = r(i)
-      }
+    for ( i <- 1 to (r.length - 1) if min > r(1)){
+      min = r(i)
+    }
     min
   }
 

@@ -1,11 +1,12 @@
 package decorator
 
 class Meat(val pizza: Pizza) extends Pizza {
+
   def getDesc: String = {
-    return null
+    return "Adding Meat"
   }
 
   def getPrice: Double = {
-    return 0
+    return 5.00
   }
 }

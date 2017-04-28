@@ -2,10 +2,10 @@ package decorator
 
 class Spinach(val pizza: Pizza) extends Pizza {
   def getDesc: String = {
-    return null
+    return "Adding Spinach"
   }
 
   def getPrice: Double = {
-    return 0
+    return 0.50
   }
 }

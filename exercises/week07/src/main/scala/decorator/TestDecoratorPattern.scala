@@ -23,7 +23,7 @@ object TestDecoratorPattern {
     print(pizza)
   }
 
-  private def print(pizza: Pizza) {
+  def print(pizza: Pizza) {
     System.out.println("Desc: " + pizza.getDesc)
     System.out.println("Price: " + dformat.format(pizza.getPrice))
   }

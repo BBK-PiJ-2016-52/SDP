@@ -1,13 +1,19 @@
 package sml
 
-/**
-  * Created by Eric on 05/04/2017.
-  */
-class BnzInstruction(label: String, op: String, val result: Int, val op1: Int, val op2: Int)
-  extends Instruction(label, op){
-  override def execute(m: Machine) {
-    val value1 = m.regs(op1)
-    val value2 = m.regs(op2)
-    m.regs(result) = value1 + value2 // TODO Check the BNZ
+class BnzInstruction(label: String, op: String, val result: Int, val toLabel: String) extends Instruction(label, op){
+  override def execute(m: Machine): Unit = {
+    if (m.regs(result) != 0) {
+      m.pc = m.labels.labels.indexWhere(p => p == result, 0)
+    }
   }
+
+  override def toString(): String =
+    super.toString() + s" if reg: $result != 0 jump to $toLabel" + "\n"
+
 }
+
+object BnzInstruction {
+  def apply(label: String, result: Int, toLabel: String): BnzInstruction =
+    new BnzInstruction(label, "bnz", result, toLabel)
+}
+

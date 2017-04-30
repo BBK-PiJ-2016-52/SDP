@@ -1,7 +1,6 @@
 package sml
 
-class AddInstruction(label: String, op: String, val result: Int, val op1: Int, val op2: Int)
-  extends Instruction(label, op) {
+class AddInstruction(label: String, op: String, val result: Int, val op1: Int, val op2: Int) extends Instruction(label, op) {
 
   override def execute(m: Machine) {
     val value1 = m.regs(op1)
@@ -15,6 +14,6 @@ class AddInstruction(label: String, op: String, val result: Int, val op1: Int, v
 }
 
 object AddInstruction {
-  def apply(label: String, result: Int, op1: Int, op2: Int) =
+  def apply(label: String, result: Int, op1: Int, op2: Int): AddInstruction =
     new AddInstruction(label, "add", result, op1, op2)
 }

@@ -22,14 +22,16 @@ class Translator(fileName: String) {
     val lines = Source.fromFile(fileName).getLines
     for (line <- lines) {
       val fields = line.split(" ")
-      if (fields.nonEmpty) {
+      if (fields.length < 0) {
         labels.add(fields(0))
         fields(1) match {
           case ADD =>
             program = program :+ AddInstruction(fields(0), fields(2).toInt, fields(3).toInt, fields(4).toInt)
           case LIN =>
             program = program :+ LinInstruction(fields(0), fields(2).toInt, fields(3).toInt)
-          case x =>
+          /*case BNZ =>
+            program = program :+ BnzInstruction(fields(0), fields(2).toInt, fields(3).toInt)
+          */case x =>
             println(s"Unknown instruction $x")
         }
       }
@@ -39,5 +41,5 @@ class Translator(fileName: String) {
 }
 
 object Translator {
-  def apply(file: String) = new Translator(file)
+  def apply(file: String): Translator = new Translator(file)
 }

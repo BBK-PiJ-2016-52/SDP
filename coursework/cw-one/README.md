@@ -1,1 +1,0 @@
-## SDP - Coursework 1

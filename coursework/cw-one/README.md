@@ -1,4 +1,5 @@
 ## Assignment One - Simple Machine Language (SML) 
+># :bookmark_tabs: :mag:    
 
 An interpreter for a simple machine language — SML. The general form of
 a machine language instruction is:  
@@ -14,4 +15,3 @@ retrieving integers, and for conditionally branching to other labels (like an if
 - ```register-list ```  is the list of registers that the instruction manipulates.
 Registers are simple, integer, storage areas in computer memory, much like variables.
 In SML, there are 32 registers, numbered 0, 1, . . . , 31.   
->:email: :mag:

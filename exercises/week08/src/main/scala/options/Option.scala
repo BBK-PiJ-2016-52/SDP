@@ -1,3 +1,4 @@
+/*
 
 sealed trait Option[A+] {
    def getOrElse(default: A): A
@@ -11,4 +12,4 @@ final case class Some[A](x:A) extends Option[A]{
    // other methods
 }
 
-final case
+final case*/

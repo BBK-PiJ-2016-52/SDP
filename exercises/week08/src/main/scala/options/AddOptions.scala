@@ -1,3 +1,4 @@
+/*
 package options
 object AddOptions extends App{
 
@@ -27,4 +28,4 @@ object AddOptions extends App{
   println(None,Some(1),Some(10),None)
 //  numbers = Seq(None,None,None)
   println(None,None,None)
-}
+}*/

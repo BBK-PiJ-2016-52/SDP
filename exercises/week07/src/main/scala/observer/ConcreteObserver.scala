@@ -1,5 +1,5 @@
 package observer
 
-class ConcreteObserver(concreteSubject: ConcreteSubject) extends Observer{
+abstract class ConcreteObserver(concreteSubject: ConcreteSubject) {
 
 }

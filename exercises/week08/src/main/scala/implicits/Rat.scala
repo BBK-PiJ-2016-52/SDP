@@ -1,3 +1,5 @@
+package implicits
+
 import scala.math.Ordering
 
 final case class Rational(numerator: Int, denominator: Int)

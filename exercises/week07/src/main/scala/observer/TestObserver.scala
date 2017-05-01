@@ -1,3 +1,4 @@
+/*
 package observer
 
 object TestObserver extends App {
@@ -13,3 +14,4 @@ object TestObserver extends App {
     obj.setDesc("It's a goal!!")
     obj.setDesc("Current score 1-0")
 }
+*/

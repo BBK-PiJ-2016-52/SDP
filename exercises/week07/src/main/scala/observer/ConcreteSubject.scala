@@ -1,5 +1,5 @@
 package observer
 
-class ConcreteSubject extends Subject{
+abstract class ConcreteSubject {
 def notifyObservers(){}
 }

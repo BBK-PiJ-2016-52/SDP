@@ -1,9 +1,8 @@
-## Assignment One - Simple Machine Language (SML) :bookmark_tabs: :mag:    
-
 [![src](https://img.shields.io/badge/source-main-brightgreen.svg)][main]
 
-
 [main]: https://github.com/BBK-PiJ-2016-52/SDP/tree/master/coursework/cw-one/src/main/scala/sml
+
+## Assignment One - Simple Machine Language (SML) :bookmark_tabs: :mag:    
 
 An interpreter for a simple machine language — SML. The general form of
 a machine language instruction is:  

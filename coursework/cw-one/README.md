@@ -14,3 +14,24 @@ retrieving integers, and for conditionally branching to other labels (like an if
 - ```register-list ```  is the list of registers that the instruction manipulates.
 Registers are simple, integer, storage areas in computer memory, much like variables.
 In SML, there are 32 registers, numbered 0, 1, . . . , 31.   
+
+#### Repository Structure
+```cw-two
+   ├── build.sbt
+   ├── cw-one.iml
+   ├── project
+   │   └── build.properties
+   ├── src
+   │   ├── main
+   │   │   ├── java
+   │   │   ├── resources
+   │   │   ├── scala
+   │   │   │   └── sml
+   │   │   │       ├── ...
+   │   └── test
+   │       ├── scala
+   │       │   ├── sml
+   │       │   │   ├── ...
+   └── README.MD
+   └── test1.sml
+   └── test2.sml

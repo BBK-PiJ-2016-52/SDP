@@ -44,4 +44,4 @@ In SML, there are 32 registers, numbered 0, 1, . . . , 31.
 
 |                                                                                                 | username                                                       | description                               |
 --------------------------------------------------------------------------------------------------|----------------------------------------------------------------|---------------------------------------------------|
- <img src="https://avatars2.githubusercontent.com/u/22904851?v=3&s=460"      height="50px" title="Eric Rodriguez"/>        | [`@BBK-PiJ-2016-52`](https://github.com/BBK-PiJ-2016-52)           | Coursework One SDP |
+ <img src="https://avatars0.githubusercontent.com/u/22904851?v=3&u=cfb4a9acace450d6628c1c80ce6e46c985e178d2&s=400"      height="50px" title="Eric Rodriguez"/>        | [`@BBK-PiJ-2016-52`](https://github.com/BBK-PiJ-2016-52)           | Coursework One |

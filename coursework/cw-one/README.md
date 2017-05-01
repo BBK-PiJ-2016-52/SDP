@@ -23,8 +23,6 @@ In SML, there are 32 registers, numbered 0, 1, . . . , 31.
    │   └── build.properties
    ├── src
    │   ├── main
-   │   │   ├── java
-   │   │   ├── resources
    │   │   ├── scala
    │   │   │   └── sml
    │   │   │       ├── ...
@@ -34,4 +32,4 @@ In SML, there are 32 registers, numbered 0, 1, . . . , 31.
    │       │   │   ├── ...
    └── README.MD
    └── test1.sml
-   └── test2.sml
+   └── test2.sml```

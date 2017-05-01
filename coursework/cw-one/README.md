@@ -1,5 +1,4 @@
-## Assignment One - Simple Machine Language (SML) 
-># :bookmark_tabs: :mag:    
+## Assignment One - Simple Machine Language (SML) :bookmark_tabs: :mag:    
 
 An interpreter for a simple machine language — SML. The general form of
 a machine language instruction is:  

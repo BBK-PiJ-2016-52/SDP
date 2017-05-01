@@ -38,4 +38,10 @@ In SML, there are 32 registers, numbered 0, 1, . . . , 31.
    │       │   │   ├── ...
    └── README.MD
    └── test1.sml
-   └── test2.sml```
+   └── test2.sml
+```
+#### Developed by
+
+|                                                                                                 | username                                                       | description                               |
+--------------------------------------------------------------------------------------------------|----------------------------------------------------------------|---------------------------------------------------|
+ <img src="https://avatars2.githubusercontent.com/u/22904851?v=3&s=460"      height="50px" title="Eric Rodriguez"/>        | [`@BBK-PiJ-2016-52`](https://github.com/BBK-PiJ-2016-52)           | Coursework One SDP |

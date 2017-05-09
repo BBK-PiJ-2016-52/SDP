@@ -8,7 +8,7 @@ import scala.io.Source
 class ProgramParserImpl extends ProgramParser {
   override type InstructionList = Vector[Instruction]
 
-  def instructionList(instruction: Instruction*) = Vector(instruction: _*)
+  def instructionList(instruction: Instruction*): Vector[Instruction] = Vector(instruction: _*)
 
   /**
     * Parses a file representation of a bytecode program
@@ -57,10 +57,10 @@ class ProgramParserImpl extends ProgramParser {
     if (fields.nonEmpty) {
       for (field <- fields) { //for each line of instructions
         val fieldOne = field //initialises fieldone with the first instruction
-      var fieldTwo: Vector[Int] = Vector[Int]() //initialises field two with an empty int vector
+        var fieldTwo: Vector[Int] = Vector[Int]() //initialises field two with an empty int vector
         if (field.contains(" ")) { //if the instruction contains an int
           val multipleInstr = field.split(" ")//split the two instructions
-        val fieldOne = multipleInstr(0)//field one will be iconst
+          val fieldOne = multipleInstr(0)//field one will be iconst
           fieldTwo = fieldTwo :+ multipleInstr(1).toInt //field two will be the int
           instructions = instructions :+ new Instruction(fieldOne, fieldTwo)// append instruction
         } else {

@@ -1,6 +1,6 @@
 package factory.ByteCodeFactory
 
-import bc.{ByteCode, ByteCodeFactory, ByteCodeValues, InvalidBytecodeException}
+import bc.{ByteCode, ByteCodeValues}
 import vm.VirtualMachine
 
 /**
@@ -20,5 +20,5 @@ class IincByteCode extends ByteCode{
     * @param vm the initial virtual machine
     * @return a new virtual machine
     */
-  override def execute(vm: VirtualMachine): VirtualMachine = vm.push(vm.pop()._1+1)
+  override def execute(vm: VirtualMachine): VirtualMachine = vm.push(vm.pop()._1 + 1)
 }

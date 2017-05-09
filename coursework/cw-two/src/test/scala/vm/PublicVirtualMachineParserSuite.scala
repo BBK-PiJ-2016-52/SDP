@@ -8,7 +8,8 @@ class PublicVirtualMachineParserSuite extends FunSuite with ByteCodeValues {
   val vmp = VirtualMachineFactory.virtualMachineParser
 
   test("[8] vm parser should parse programs/p01.vm a file into bytecode") {
-    val code = vmp.parse("programs/p01.vm")
+    //val code = vmp.parse("/Users/jakeholdom/Programming/Scala/SDP/coursework/cw-two/programs/p01.vm")
+    val code = vmp.parse("C:\\Users\\Eric\\Documents\\SDP\\coursework\\cw-two\\programs\\p01.vm")
     assert(code.length == 4)
     assert(code(0).code == bytecode("iconst"))
     assert(code(1).code == bytecode("iconst"))
@@ -17,7 +18,8 @@ class PublicVirtualMachineParserSuite extends FunSuite with ByteCodeValues {
   }
 
   test("[8] vm parser should parse programs/p03.vm a file into bytecode") {
-    val code = vmp.parse("programs/p03.vm")
+    //val code = vmp.parse("/Users/jakeholdom/Programming/Scala/SDP/coursework/cw-two/programs/p03.vm")
+    val code = vmp.parse("C:\\Users\\Eric\\Documents\\SDP\\coursework\\cw-two\\programs\\p03.vm")
     assert(code.length == 20)
     val all = Vector("iconst", "iconst", "iswap", "iadd", "iconst", "iadd",
                      "iconst", "isub", "iconst", "imul", "iconst", "idiv",
@@ -29,7 +31,8 @@ class PublicVirtualMachineParserSuite extends FunSuite with ByteCodeValues {
 
   test("[4] vm parser should detect a program with invalid bytecode") {
     intercept[InvalidBytecodeException] {
-      val code = vmp.parse("programs/p04-bad-program.vm")
+      //val code = vmp.parse("/Users/jakeholdom/Programming/Scala/SDP/coursework/cw-two/programs/p04-bad-program.vm")
+      val code = vmp.parse("C:\\Users\\Eric\\Documents\\SDP\\coursework\\cw-two\\programs\\p04-bad-program.vm")
     }
   }
 }

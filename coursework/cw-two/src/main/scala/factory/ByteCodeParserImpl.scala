@@ -26,6 +26,7 @@ class ByteCodeParserImpl extends ByteCodeParser{
     var iConstByte = bc.head //initialises byte which will be changed to iconst if one is found
     for (byte <- bc){ //loop through each byte in bc vector
 
+
       if (byte == bytecode("iconst") || isIconst){ //if bytecode is iconst of boolean is true
         //which means that the previous byte was an iconst
         if(!isIconst){ //if this is the iconst

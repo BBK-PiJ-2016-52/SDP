@@ -1,6 +1,6 @@
 package factory.ByteCodeFactory
 
-import bc.{ByteCode, ByteCodeFactory, ByteCodeValues, InvalidBytecodeException}
+import bc.{ByteCode, ByteCodeValues}
 import vm.VirtualMachine
 
 /**

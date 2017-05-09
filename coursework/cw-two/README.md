@@ -77,49 +77,34 @@ pushes the result.
 
 #### Repository Structure
 ```cw-two
-   ├── build.sbt
-   ├── cw-two.iml
-   ├── programs
-   │   ├── p01.vm
-   │   ├── p02-bad-stack.vm
-   │   ├── p03.vm
-   │   ├── p04-bad-program.vm
-   │   └── p05.vm
-   ├── project
-   │   └── build.properties
-   ├── src
-   │   ├── instructor
-   │   │   └── scala
-   │   │       ├── bc
-   │   │       │   ├── ...
-   │   │       ├── vendor
-   │   │       │   ├── ...
-   │   │       └── vm
-   │   │           ├── ...
-   │   ├── main
-   │   │   ├── java
-   │   │   ├── resources
-   │   │   ├── scala
-   │   │   │   └── ...
-   │   │   │       ├── ...
-   │   │   └── test
-   │       ├── java
-   │       ├── resources
-   │       ├── scala
-   │       │   ├── bc
-   │       │   │   ├── ...
-   │       │   ├── support
-   │       │   │   └── ...
-   │       │   ├── vendor
-   │       │   │   └── ...
-   │       │   └── vm
-   │       │       ├── ...
-   └── tools
-       └── grading-assistant.jar
+├───.idea
+│   ├───libraries
+│   └───modules
+├───programs
+├───project
+├───src
+│   ├───instructor
+│   │   └───scala
+│   │       ├───bc
+│   │       ├───vendor
+│   │       └───vm
+│   ├───main
+│   │   └───scala
+│   │       ├───factory
+│   │       │   └───ByteCodeFactory
+│   │       ├───vendor
+│   │       └───vm
+│   └───test
+│       └───scala
+│           ├───bc
+│           ├───ownTests
+│           ├───support
+│           ├───vendor
+│           └───vm
 ```
 #### Developed by
  
-|                                                                                                 | username                                                       | description                               |
+|                                                                                                 | about                                                       | username                               |
 --------------------------------------------------------------------------------------------------|----------------------------------------------------------------|---------------------------------------------------|
- <img src="https://avatars0.githubusercontent.com/u/22904851?v=3&u=cfb4a9acace450d6628c1c80ce6e46c985e178d2&s=400"      height="50px" title="Eric Rodriguez"/>        | [`@BBK-PiJ-2016-52`](https://github.com/BBK-PiJ-2016-52)           | B.Eng. Mechatronics|
- <img src="https://avatars1.githubusercontent.com/u/22638726?v=3&s=460"      height="50px" title="Jake Holdon"/>        | [`@BBK-PiJ-2016-08`](https://github.com/BBK-PiJ-2016-08)           | BSc Music & Audio Technology |
+<img src="https://avatars1.githubusercontent.com/u/22638726?v=3&s=460"      height="50px" title="Eric Rodriguez"/>        |  Jake Holdom - jholdo01     | [`@BBK-PiJ-2016-08`](https://github.com/BBK-PiJ-2016-08)  |
+<img src="https://avatars0.githubusercontent.com/u/22904851?v=3&u=cfb4a9acace450d6628c1c80ce6e46c985e178d2&s=400"      height="50px" title="Eric Rodriguez"/>        |    Eric Rodriguez - erodri07     |  [`@BBK-PiJ-2016-52`](https://github.com/BBK-PiJ-2016-52) |
